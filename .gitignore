@@ -1,0 +1,10 @@
+/api/public/css/*
+/api/public/js/*
+/api/node_modules
+/api/vendor
+/api/.env
+/.idea
+
+/ui/node_modules
+/ui/public/*
+/ui/public/*
