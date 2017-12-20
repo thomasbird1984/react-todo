@@ -4,6 +4,9 @@
   "description": "User interface for todo application built with ReactJS",
   "main": "index.html",
   "scripts": {
+    "watch": "webpack -d --watch",
+    "build": "webpack",
+    "serve": "serve ./public",
     "test": "na"
   },
   "repository": {
@@ -23,6 +26,9 @@
   },
   "homepage": "https://github.com/thomasbird1984/react-todo#readme",
   "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome-webpack": "0.0.5-beta.2",
+    "jquery": "^3.2.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-router-dom": "^4.2.2"
